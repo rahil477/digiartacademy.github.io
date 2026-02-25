@@ -79,10 +79,10 @@
       <div class="hero-content">
         <div class="badge">Yeni Kurslara Qeydiyyat Başladı</div>
         <h1 class="hero-title">Rəqəmsal İncəsənət Dünyasına xoş gəlmişsiniz. <span class="gradient-text">DigiArt Academy.</span></h1>
-        <p class="hero-subtitle">UX/UI, Qrafik dizayn, Frontend, Backend və daha çox sahədə peşəkar təhsil alın. Gələcəyin mütəxəssisi siz olun.</p>
+        <p class="hero-subtitle">UX/UI, Qrafik Dizayn, Frontend, Backend və daha çox sahədə peşəkar təhsil alın. Gələcəyin mütəxəssisi siz olun.</p>
         <div class="hero-actions">
           <button class="primary-btn hero-btn" onclick="document.getElementById('courses').scrollIntoView({behavior: 'smooth'})">Kursları Kəşf Et</button>
-          <a href="#about" class="secondary-btn">Daha Etraflı</a>
+          <a href="#about" class="secondary-btn">Daha Ətraflı</a>
         </div>
       </div>
       <div class="hero-visual">
@@ -134,7 +134,7 @@
       </div>
       <div class="about-content">
         <h2 class="section-title">Niyə məhz DigiArt Academy?</h2>
-        <p class="section-subtitle about-text">DigiArt Academy 2026-cı ildə qurulmuşdur. Yeni fəaliyyətə başlasa da, rəqəmsal incəsənət və IT sahəsində tələbələrin yüksək keyfiyyətli tədrisini hədəfləyir.</p>
+        <p class="section-subtitle about-text">DigiArt Academy 2026-cı ildə qurulmuşdur. Yeni fəaliyyətə başlasa da, rəqəmsal incəsənət və İT sahəsində tələbələrin yüksək keyfiyyətli tədrisini hədəfləyir.</p>
         <ul class="features-list">
           <li>✨ Tamamilə praktik yönümlü tədris proqramı</li>
           <li>🎯 Real sənaye layihələri üzərində iş</li>
@@ -153,7 +153,7 @@
       <div class="testimonials-grid">
         <!-- Will be populated by JS if dynamic, or hardcoded for now -->
         <div class="course-card testimonial-card">
-          <p class="course-desc">"DigiArt Academy sayəsində sıfırdan UI/UX dizayn öyrəndim və hazırda aparıcı bir IT şirkətində işləyirəm."</p>
+          <p class="course-desc">"DigiArt Academy sayəsində sıfırdan UI/UX dizayn öyrəndim və hazırda aparıcı bir İT şirkətində işləyirəm."</p>
           <div class="author-info">
             <div class="author-avatar">🎨</div>
             <div>
@@ -190,7 +190,7 @@
       </div>
     </div>
   </section>
-`;function l(){return[{title:"UX/UI Dizayn",desc:"İstifadəçi təcrübəsi və istifadəçi interfeysi dizaynının sirlərini öyrənin. Figma-da real layihələr. Müasir dizayn trendləri.",icon:"📐"},{title:"Qrafik Dizayn",desc:"Adobe Photoshop və Illustrator ilə vizual kommunikasiya sənətini mənimsəyin. Brandinq, sosial media postları və daha çoxu.",icon:"🎨"},{title:"Frontend Proqramlaşdırma",desc:"HTML, CSS, JavaScript və müasir freymvörklərlə (React və ya Vue) göz oxşayan və interaktiv veb saytlar yaradın.",icon:"💻"},{title:"Backend Proqramlaşdırma",desc:"Server, məlumatlar bazası strukturu (Node.js, Python və ya PHP) öyrənərək güclü və təhlükəsiz veb sistemləri hazırlayın.",icon:"⚙️"},{title:"SMM (Sosial Media Marketinq)",desc:"Brendin rəqəmsal mövcudluğunu artırın. Reklam strategiyaları, məzmun planlaması və hədəf kütlə analizini öyrənin.",icon:"📱"}].map(i=>`
+`;function l(){return[{title:"UX/UI Dizayn",desc:"İstifadəçi təcrübəsi və istifadəçi interfeysi dizaynının sirlərini öyrənin. Figma-da real layihələr. Müasir dizayn trendləri.",icon:"📐"},{title:"Qrafik Dizayn",desc:"Adobe Photoshop və Illustrator ilə vizual kommunikasiya sənətini mənimsəyin. Brendinq, sosial media postları və daha çoxu.",icon:"🎨"},{title:"Frontend Proqramlaşdırma",desc:"HTML, CSS, JavaScript və müasir freymvörklərlə (React və ya Vue) göz oxşayan və interaktiv veb saytlar yaradın.",icon:"💻"},{title:"Backend Proqramlaşdırma",desc:"Server, məlumatlar bazası strukturu (Node.js, Python və ya PHP) öyrənərək güclü və təhlükəsiz veb sistemləri hazırlayın.",icon:"⚙️"},{title:"SMM (Sosial Media Marketinq)",desc:"Brendin rəqəmsal mövcudluğunu artırın. Reklam strategiyaları, məzmun planlaması və hədəf kütlə analizini öyrənin.",icon:"📱"}].map(i=>`
     <div class="course-card">
       <div class="course-icon">${i.icon}</div>
       <h3 class="course-title">${i.title}</h3>

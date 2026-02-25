@@ -12,7 +12,7 @@ with open(js_path, "r", encoding="utf-8") as f:
 html_content = """
     <header class="navbar">
         <div class="container navbar-inner">
-            <a href="#" class="brand-logo">Digiart<span>Academy</span></a>
+            <a href="#" class="brand-logo">DigiArt<span>Academy</span></a>
             <nav class="nav-links">
                 <a href="#about" class="nav-link">Haqqımızda</a>
                 <a href="#courses" class="nav-link">Kurslar</a>
