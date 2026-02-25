@@ -10,8 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
         rel="stylesheet"> <!-- ✅ BU ƏLAVƏ EDİLDİ -->
-  <script type="module" crossorigin src="/assets/index-DUo2YsH6.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-BkVz_iwD.css">
+  <script type="module" crossorigin src="/assets/index-x98otwR5.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-hqWt5NYc.css">
 </head>
 
 <body>
@@ -173,18 +173,91 @@
             </div>
         </section>
 
-        <section class="section contact-section" id="contact">
-            <div class="container contact-inner">
-                <div class="contact-box glass-card">
-                    <h2 class="section-title">Səyahətinə Başla</h2>
-                    <p class="section-subtitle" style="margin-bottom:2rem">Daha çox məlumat almaq və kurslarımıza
-                        yazılmaq üçün bizimlə əlaqə saxlayın.</p>
-                    <form class="contact-form" action="https://formspree.io/f/xbjnkyoz" method="POST">
-                        <input type="text" name="Ad_Soyad" placeholder="Adınız və Soyadınız" class="form-input"
-                            required>
-                        <input type="email" name="Email" placeholder="Email ünvanınız" class="form-input" required>
-                        <input type="tel" name="Telefon" placeholder="Əlaqə nömrəniz" class="form-input" required>
-                        <button type="submit" class="primary-btn form-btn">Müraciət Göndər</button>
+        <section class="contact-section" id="contact">
+            <div class="contact-wrapper">
+
+                <!-- Sol tərəf — məlumat -->
+                <div class="contact-info">
+                    <div class="contact-badge">Pulsuz məsləhət</div>
+                    <h2>Yaradıcılıq yolunda <span>bizimlə</span> başla</h2>
+                    <p>Formu doldurun, 24 saat ərzində sizinlə əlaqə saxlayacağıq. Kurs haqqında bütün suallarınızı
+                        cavablandıracağıq.</p>
+                    <div class="contact-features">
+                        <div class="contact-feature">
+                            <div class="contact-feature-icon">🎓</div>
+                            <span>Peşəkar müəllimlər tərəfindən tədris</span>
+                        </div>
+                        <div class="contact-feature">
+                            <div class="contact-feature-icon">📜</div>
+                            <span>Kurs sonunda sertifikat</span>
+                        </div>
+                        <div class="contact-feature">
+                            <div class="contact-feature-icon">💼</div>
+                            <span>İş tapmaqda kömək</span>
+                        </div>
+                        <div class="contact-feature">
+                            <div class="contact-feature-icon">🔄</div>
+                            <span>Ömürlük materiallar</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sağ tərəf — form -->
+                <div class="form-card">
+                    <h3>Müraciət Et</h3>
+                    <p>Aşağıdakı formu doldurun</p>
+
+                    <!-- Uğur mesajı (form göndərildikdən sonra görünür) -->
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">✓</div>
+                        <h4>Müraciətiniz qəbul edildi!</h4>
+                        <p>Tezliklə sizinlə əlaqə saxlayacağıq.</p>
+                    </div>
+
+                    <!-- Müraciət formu -->
+                    <form id="contactForm" action="https://formspree.io/f/xpqjkvrl" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Ad *</label>
+                                <input type="text" name="ad" placeholder="Adınız" required />
+                            </div>
+                            <div class="form-group">
+                                <label>Soyad</label>
+                                <input type="text" name="soyad" placeholder="Soyadınız" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Telefon *</label>
+                            <input type="tel" name="telefon" placeholder="+994 XX XXX XX XX" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="email@example.com" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Kurs seçin *</label>
+                            <select name="kurs" required>
+                                <option value="" disabled selected>Kurs seçin...</option>
+                                <option value="photoshop">Adobe Photoshop</option>
+                                <option value="illustrator">Adobe Illustrator</option>
+                                <option value="ui-ux">UI/UX Dizayn</option>
+                                <option value="3d">3D Modelləmə</option>
+                                <option value="video">Video Redaktə</option>
+                                <option value="diger">Digər</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Qeyd (istəyə bağlı)</label>
+                            <textarea name="qeyd" placeholder="Sualınız və ya qeydiniz..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn" id="submitBtn">
+                            Müraciət Göndər →
+                        </button>
                     </form>
                 </div>
             </div>
