@@ -1,7 +1,7 @@
 import os
 
-css_path = r"d:\R\Code\Digiart Academy\dist\assets\index-BkVz_iwD.css"
-js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-Cqn61oXn.js"
+css_path = r"d:\R\Code\Digiart Academy\dist\assets\index-ZQxHRv2r.css"
+js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-DD6lkm5B.js"
 
 with open(css_path, "r", encoding="utf-8") as f:
     css_content = f.read()
@@ -64,7 +64,7 @@ blogger_template = f"""<?xml version="1.0" encoding="UTF-8" ?>
     
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=DM+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet" />
 
     <b:skin><![CDATA[
 {css_content}
