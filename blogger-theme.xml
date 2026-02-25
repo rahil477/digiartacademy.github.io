@@ -236,12 +236,11 @@
             <label>Kurs seçin *</label>
             <select name="kurs" required="required">
               <option value="" disabled="disabled" selected="selected">Kurs seçin...</option>
-              <option value="photoshop">Adobe Photoshop</option>
-              <option value="illustrator">Adobe Illustrator</option>
-              <option value="ui-ux">UI/UX Dizayn</option>
-              <option value="3d">3D Modelləmə</option>
-              <option value="video">Video Redaktə</option>
-              <option value="diger">Digər</option>
+              <option value="qrafik-dizayn">Qrafik Dizayn</option>
+              <option value="ui-ux">UX/UI</option>
+              <option value="frontend">Frontend</option>
+              <option value="backend">Backend</option>
+              <option value="smm">SMM</option>
             </select>
           </div>
           <div class="form-group">
