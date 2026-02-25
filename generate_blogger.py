@@ -28,7 +28,7 @@ html_content = """
     <footer class="footer">
         <div class="container footer-inner">
             <div class="footer-col">
-                <h3>Digiart Academy</h3>
+                <h3>DigiArt Academy</h3>
                 <p>Yaradıcılıq yolunda ilk addımını bizimlə at. Müasir rəqəmsal incəsənət kursları.</p>
             </div>
             <div class="footer-col">
@@ -50,7 +50,7 @@ html_content = """
             </div>
         </div>
         <div class="footer-bottom text-center">
-            <p>&#169; 2026 Digiart Academy. Bütün hüquqlar qorunur.</p>
+            <p>&#169; 2026 DigiArt Academy. Bütün hüquqlar qorunur.</p>
         </div>
     </footer>
 """

@@ -44,7 +44,7 @@
     <footer class="footer">
         <div class="container footer-inner">
             <div class="footer-col">
-                <h3>Digiart Academy</h3>
+                <h3>DigiArt Academy</h3>
                 <p>Yaradıcılıq yolunda ilk addımını bizimlə at. Müasir rəqəmsal incəsənət kursları.</p>
             </div>
             <div class="footer-col">
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="footer-bottom text-center">
-            <p>&#169; 2026 Digiart Academy. Bütün hüquqlar qorunur.</p>
+            <p>&#169; 2026 DigiArt Academy. Bütün hüquqlar qorunur.</p>
         </div>
     </footer>
 
@@ -78,7 +78,7 @@
     <div class="container hero-inner">
       <div class="hero-content">
         <div class="badge">Yeni Kurslara Qeydiyyat Başladı</div>
-        <h1 class="hero-title">Rəqəmsal İncəsənət Dünyasına xoş gəlmişsiniz. <span class="gradient-text">Digiart Academy.</span></h1>
+        <h1 class="hero-title">Rəqəmsal İncəsənət Dünyasına xoş gəlmişsiniz. <span class="gradient-text">DigiArt Academy.</span></h1>
         <p class="hero-subtitle">UX/UI, Qrafik dizayn, Frontend, Backend və daha çox sahədə peşəkar təhsil alın. Gələcəyin mütəxəssisi siz olun.</p>
         <div class="hero-actions">
           <button class="primary-btn hero-btn" onclick="document.getElementById('courses').scrollIntoView({behavior: 'smooth'})">Kursları Kəşf Et</button>
@@ -133,8 +133,8 @@
         </div>
       </div>
       <div class="about-content">
-        <h2 class="section-title">Niyə məhz Digiart Academy?</h2>
-        <p class="section-subtitle about-text">Digi Art Academy 2026-cı ildə qurulmuşdur. Yeni fəaliyyətə başlasa da, rəqəmsal incəsənət və IT sahəsində tələbələrin yüksək keyfiyyətli tədrisini hədəfləyir.</p>
+        <h2 class="section-title">Niyə məhz DigiArt Academy?</h2>
+        <p class="section-subtitle about-text">DigiArt Academy 2026-cı ildə qurulmuşdur. Yeni fəaliyyətə başlasa da, rəqəmsal incəsənət və IT sahəsində tələbələrin yüksək keyfiyyətli tədrisini hədəfləyir.</p>
         <ul class="features-list">
           <li>✨ Tamamilə praktik yönümlü tədris proqramı</li>
           <li>🎯 Real sənaye layihələri üzərində iş</li>
@@ -153,7 +153,7 @@
       <div class="testimonials-grid">
         <!-- Will be populated by JS if dynamic, or hardcoded for now -->
         <div class="course-card testimonial-card">
-          <p class="course-desc">"Digiart Academy sayəsində sıfırdan UI/UX dizayn öyrəndim və hazırda aparıcı bir IT şirkətində işləyirəm."</p>
+          <p class="course-desc">"DigiArt Academy sayəsində sıfırdan UI/UX dizayn öyrəndim və hazırda aparıcı bir IT şirkətində işləyirəm."</p>
           <div class="author-info">
             <div class="author-avatar">🎨</div>
             <div>
