@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=DM+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet" />
 
     <b:skin><![CDATA[
-:root{--bg-dark: #0a0a0c;--bg-surface: #141417;--primary-accent: #6f00ff;--primary-accent-hover: #8f33ff;--text-main: #f8f9fa;--text-muted: #a1a1aa;--font-heading: "Outfit", sans-serif;--font-body: "Inter", sans-serif;--transition: all .3s cubic-bezier(.4, 0, .2, 1);--glass-bg: rgba(20, 20, 23, .7);--glass-border: rgba(255, 255, 255, .08)}*{box-sizing:border-box;margin:0;padding:0}body{font-family:var(--font-body);background-color:var(--bg-dark);color:var(--text-main);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:700;line-height:1.2}a{text-decoration:none;color:inherit;transition:var(--transition)}.container{max-width:1200px;margin:0 auto;padding:0 2rem}.primary-btn{background:var(--primary-accent);color:#fff;border:none;padding:.75rem 1.5rem;border-radius:8px;font-family:var(--font-body);font-weight:600;cursor:pointer;transition:var(--transition);font-size:1rem}.primary-btn:hover{background:var(--primary-accent-hover);transform:translateY(-2px);box-shadow:0 4px 12px #6f00ff4d}.navbar{position:fixed;top:0;width:100%;z-index:1000;background:var(--glass-bg);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--glass-border);transition:var(--transition)}.navbar-inner{display:flex;justify-content:space-between;align-items:center;height:80px}.brand-logo{font-family:var(--font-heading);font-size:1.5rem;font-weight:800;letter-spacing:-.5px}.brand-logo span{color:var(--primary-accent)}.nav-links{display:flex;gap:2rem}.nav-link{font-size:.95rem;font-weight:500;color:var(--text-muted)}.nav-link:hover{color:var(--text-main)}.footer{background:var(--bg-surface);padding:4rem 0 2rem;margin-top:4rem;border-top:1px solid var(--glass-border)}.footer-inner{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:3rem;margin-bottom:3rem}.footer-col h3,.footer-col h4{margin-bottom:1.5rem}.footer-col p{color:var(--text-muted);margin-bottom:.5rem}.footer-col a{display:block;color:var(--text-muted);margin-bottom:.75rem}.footer-col a:hover{color:var(--primary-accent)}.footer-bottom{border-top:1px solid var(--glass-border);padding-top:2rem;color:var(--text-muted);font-size:.9rem}.text-center{text-align:center}.hero-section{padding:180px 0 100px;position:relative;overflow:hidden}.hero-section:before{content:"";position:absolute;top:-20%;left:-10%;width:50%;height:60%;background:radial-gradient(circle,#6f00ff26,#0000 70%);z-index:-1;filter:blur(80px)}.hero-section:after{content:"";position:absolute;top:20%;right:-10%;width:40%;height:50%;background:radial-gradient(circle,#00d4ff1a,#0000 70%);z-index:-1;filter:blur(80px)}.hero-inner{display:flex;align-items:center;justify-content:space-between;gap:4rem}.hero-content{flex:1;max-width:600px}.badge{display:inline-block;padding:.4rem 1rem;background:#6f00ff1a;color:#b785ff;border:1px solid rgba(111,0,255,.3);border-radius:50px;font-size:.85rem;font-weight:600;margin-bottom:1.5rem}.hero-title{font-size:4rem;margin-bottom:1.5rem;letter-spacing:-1.5px}.gradient-text{background:linear-gradient(135deg,#a66cff,#6f00ff);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}.hero-subtitle{font-size:1.2rem;color:var(--text-muted);margin-bottom:2.5rem;max-width:90%}.hero-actions{display:flex;gap:1rem;align-items:center}.secondary-btn{padding:.75rem 1.5rem;color:var(--text-main);font-weight:600;border:1px solid var(--glass-border);border-radius:8px;transition:var(--transition)}.secondary-btn:hover{background:#ffffff0d;border-color:#fff3}.hero-visual{flex:1;display:flex;justify-content:center;position:relative}.glass-card{width:380px;height:480px;background:linear-gradient(135deg,#ffffff0d,#ffffff03);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);border:1px solid var(--glass-border);border-radius:24px;box-shadow:0 30px 60px #0006;position:relative;overflow:hidden}.glass-card:before{content:"";position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:conic-gradient(transparent,transparent,transparent,var(--primary-accent));animation:rotate 6s linear infinite;opacity:.3}.glass-card:after{content:"";position:absolute;top:2px;right:2px;bottom:2px;left:2px;background:var(--bg-surface);border-radius:22px;z-index:1}@keyframes rotate{to{transform:rotate(360deg)}}.art-element{position:absolute;z-index:2;border-radius:50%}.el-1{width:150px;height:150px;background:linear-gradient(135deg,#ff007f,#6f00ff);top:50px;left:30px;filter:blur(20px);opacity:.8;animation:float 5s ease-in-out infinite alternate}.el-2{width:200px;height:200px;background:linear-gradient(135deg,#00d4ff,#6f00ff);bottom:-20px;right:-20px;filter:blur(30px);opacity:.6;animation:float 7s ease-in-out infinite alternate-reverse}@keyframes float{0%{transform:translateY(0) scale(1)}to{transform:translateY(-20px) scale(1.05)}}.section{padding:100px 0}.section-header{text-align:center;margin-bottom:4rem}.section-title{font-size:2.5rem;margin-bottom:1rem}.section-subtitle{color:var(--text-muted);max-width:600px;margin:0 auto}.courses-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem}.course-card{background:var(--bg-surface);border:1px solid var(--glass-border);border-radius:16px;padding:2rem;transition:var(--transition);position:relative;overflow:hidden}.course-card:hover{transform:translateY(-5px);border-color:#6f00ff66;box-shadow:0 10px 30px #0000004d}.course-icon{width:60px;height:60px;border-radius:12px;background:#6f00ff1a;display:flex;align-items:center;justify-content:center;margin-bottom:1.5rem;font-size:1.8rem}.course-title{font-size:1.4rem;margin-bottom:.75rem}.course-desc{color:var(--text-muted);font-size:.95rem;margin-bottom:1.5rem}.course-link{color:#b785ff;font-weight:600;display:inline-flex;align-items:center;gap:.5rem}.course-link:hover{color:var(--primary-accent-hover)}@media(max-width:900px){.hero-inner{flex-direction:column;text-align:center}.hero-title{font-size:3rem}.hero-subtitle{margin:0 auto 2.5rem}.hero-actions{justify-content:center}.about-inner{flex-direction:column}}.about-inner{display:flex;align-items:center;gap:4rem}.about-visual{flex:1}.outline-card{width:100%;height:auto;min-height:400px;background:transparent;display:flex;align-items:center;justify-content:center;padding:2rem}.stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;width:100%}.stat-item{text-align:center;background:#ffffff08;padding:2rem 1rem;border-radius:16px;border:1px solid var(--glass-border);transition:var(--transition)}.stat-item:hover{background:#ffffff0d;border-color:#6f00ff66}.stat-num{display:block;font-size:2.5rem;font-weight:800;font-family:var(--font-heading);color:var(--primary-accent);margin-bottom:.5rem}.stat-label{color:var(--text-muted);font-weight:500}.about-content{flex:1}.about-text{margin:0 0 2rem}.features-list{list-style:none;display:flex;flex-direction:column;gap:1rem;padding:0}.features-list li{font-size:1.1rem;background:#ffffff08;padding:1rem 1.5rem;border-radius:12px;border:1px solid var(--glass-border)}.testimonials-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem}.testimonial-card{display:flex;flex-direction:column;justify-content:space-between}.author-info{display:flex;align-items:center;gap:1rem;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--glass-border)}.author-avatar{width:50px;height:50px;border-radius:50%;background:#6f00ff33;display:flex;align-items:center;justify-content:center;font-size:1.5rem}.contact-inner{display:flex;justify-content:center}.contact-box{width:100%;max-width:600px;height:auto;padding:3rem;text-align:center}.contact-box:before{animation:none;opacity:.1}.contact-form{display:flex;flex-direction:column;gap:1.5rem;position:relative;z-index:2}.form-input{width:100%;padding:1rem 1.5rem;background:#0003;border:1px solid var(--glass-border);border-radius:8px;color:var(--text-main);font-family:var(--font-body);font-size:1rem;transition:var(--transition)}.form-input:focus{outline:none;border-color:var(--primary-accent);background:#0006}.form-btn{width:100%;padding:1rem;font-size:1.1rem}
+:root{--bg-dark: #0a0a0c;--bg-surface: #141417;--primary-accent: #6f00ff;--primary-accent-hover: #8f33ff;--text-main: #f8f9fa;--text-muted: #a1a1aa;--font-heading: "Plus Jakarta Sans", sans-serif;--font-body: "DM Sans", sans-serif;--transition: all .3s cubic-bezier(.4, 0, .2, 1);--glass-bg: rgba(20, 20, 23, .7);--glass-border: rgba(255, 255, 255, .08)}*{box-sizing:border-box;margin:0;padding:0}body{font-family:var(--font-body);background-color:var(--bg-dark);color:var(--text-main);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:700;line-height:1.2}a{text-decoration:none;color:inherit;transition:var(--transition)}.container{max-width:1200px;margin:0 auto;padding:0 2rem}.primary-btn{background:var(--primary-accent);color:#fff;border:none;padding:.75rem 1.5rem;border-radius:8px;font-family:var(--font-body);font-weight:600;cursor:pointer;transition:var(--transition);font-size:1rem}.primary-btn:hover{background:var(--primary-accent-hover);transform:translateY(-2px);box-shadow:0 4px 12px #6f00ff4d}.navbar{position:fixed;top:0;width:100%;z-index:1000;background:var(--glass-bg);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--glass-border);transition:var(--transition)}.navbar-inner{display:flex;justify-content:space-between;align-items:center;height:80px}.brand-logo{font-family:var(--font-heading);font-size:1.5rem;font-weight:800;letter-spacing:-.5px}.brand-logo span{color:var(--primary-accent)}.nav-links{display:flex;gap:2rem}.nav-link{font-size:.95rem;font-weight:500;color:var(--text-muted);font-family:var(--font-heading)}.nav-link:hover{color:var(--text-main)}.footer{background:var(--bg-surface);padding:4rem 0 2rem;margin-top:4rem;border-top:1px solid var(--glass-border)}.footer-inner{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:3rem;margin-bottom:3rem}.footer-col h3,.footer-col h4{margin-bottom:1.5rem}.footer-col p{color:var(--text-muted);margin-bottom:.5rem}.footer-col a{display:block;color:var(--text-muted);margin-bottom:.75rem}.footer-col a:hover{color:var(--primary-accent)}.footer-bottom{border-top:1px solid var(--glass-border);padding-top:2rem;color:var(--text-muted);font-size:.9rem}.text-center{text-align:center}.hero-section{padding:180px 0 100px;position:relative;overflow:hidden}.hero-section:before{content:"";position:absolute;top:-20%;left:-10%;width:50%;height:60%;background:radial-gradient(circle,#6f00ff26,#0000 70%);z-index:-1;filter:blur(80px)}.hero-section:after{content:"";position:absolute;top:20%;right:-10%;width:40%;height:50%;background:radial-gradient(circle,#00d4ff1a,#0000 70%);z-index:-1;filter:blur(80px)}.hero-inner{display:flex;align-items:center;justify-content:space-between;gap:4rem}.hero-content{flex:1;max-width:600px}.badge{display:inline-block;padding:.4rem 1rem;background:#6f00ff1a;color:#b785ff;border:1px solid rgba(111,0,255,.3);border-radius:50px;font-size:.85rem;font-weight:600;margin-bottom:1.5rem}.hero-title{font-size:4rem;margin-bottom:1.5rem;letter-spacing:-1.5px}.gradient-text{background:linear-gradient(135deg,#a66cff,#6f00ff);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}.hero-subtitle{font-size:1.2rem;color:var(--text-muted);margin-bottom:2.5rem;max-width:90%}.hero-actions{display:flex;gap:1rem;align-items:center}.secondary-btn{padding:.75rem 1.5rem;color:var(--text-main);font-weight:600;border:1px solid var(--glass-border);border-radius:8px;transition:var(--transition)}.secondary-btn:hover{background:#ffffff0d;border-color:#fff3}.hero-visual{flex:1;display:flex;justify-content:center;position:relative}.glass-card{width:380px;height:480px;background:linear-gradient(135deg,#ffffff0d,#ffffff03);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);border:1px solid var(--glass-border);border-radius:24px;box-shadow:0 30px 60px #0006;position:relative;overflow:hidden}.glass-card:before{content:"";position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:conic-gradient(transparent,transparent,transparent,var(--primary-accent));animation:rotate 6s linear infinite;opacity:.3}.glass-card:after{content:"";position:absolute;top:2px;right:2px;bottom:2px;left:2px;background:var(--bg-surface);border-radius:22px;z-index:1}@keyframes rotate{to{transform:rotate(360deg)}}.art-element{position:absolute;z-index:2;border-radius:50%}.el-1{width:150px;height:150px;background:linear-gradient(135deg,#ff007f,#6f00ff);top:50px;left:30px;filter:blur(20px);opacity:.8;animation:float 5s ease-in-out infinite alternate}.el-2{width:200px;height:200px;background:linear-gradient(135deg,#00d4ff,#6f00ff);bottom:-20px;right:-20px;filter:blur(30px);opacity:.6;animation:float 7s ease-in-out infinite alternate-reverse}@keyframes float{0%{transform:translateY(0) scale(1)}to{transform:translateY(-20px) scale(1.05)}}.section{padding:100px 0}.section-header{text-align:center;margin-bottom:4rem}.section-title{font-size:2.5rem;margin-bottom:1rem}.section-subtitle{color:var(--text-muted);max-width:600px;margin:0 auto}.courses-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem}.course-card{background:var(--bg-surface);border:1px solid var(--glass-border);border-radius:16px;padding:2rem;transition:var(--transition);position:relative;overflow:hidden}.course-card:hover{transform:translateY(-5px);border-color:#6f00ff66;box-shadow:0 10px 30px #0000004d}.course-icon{width:60px;height:60px;border-radius:12px;background:#6f00ff1a;display:flex;align-items:center;justify-content:center;margin-bottom:1.5rem;font-size:1.8rem}.course-title{font-size:1.4rem;margin-bottom:.75rem}.course-desc{color:var(--text-muted);font-size:.95rem;margin-bottom:1.5rem}.course-link{color:#b785ff;font-weight:600;display:inline-flex;align-items:center;gap:.5rem}.course-link:hover{color:var(--primary-accent-hover)}@media(max-width:900px){.hero-inner{flex-direction:column;text-align:center}.hero-title{font-size:3rem}.hero-subtitle{margin:0 auto 2.5rem}.hero-actions{justify-content:center}.about-inner{flex-direction:column}}.about-inner{display:flex;align-items:center;gap:4rem}.about-visual{flex:1}.outline-card{width:100%;height:auto;min-height:400px;background:transparent;display:flex;align-items:center;justify-content:center;padding:2rem}.stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;width:100%}.stat-item{text-align:center;background:#ffffff08;padding:2rem 1rem;border-radius:16px;border:1px solid var(--glass-border);transition:var(--transition)}.stat-item:hover{background:#ffffff0d;border-color:#6f00ff66}.stat-num{display:block;font-size:2.5rem;font-weight:800;font-family:var(--font-heading);color:var(--primary-accent);margin-bottom:.5rem}.stat-label{color:var(--text-muted);font-weight:500}.about-content{flex:1}.about-text{margin:0 0 2rem}.features-list{list-style:none;display:flex;flex-direction:column;gap:1rem;padding:0}.features-list li{font-size:1.1rem;background:#ffffff08;padding:1rem 1.5rem;border-radius:12px;border:1px solid var(--glass-border)}.testimonials-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem}.testimonial-card{display:flex;flex-direction:column;justify-content:space-between}.author-info{display:flex;align-items:center;gap:1rem;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--glass-border)}.author-avatar{width:50px;height:50px;border-radius:50%;background:#6f00ff33;display:flex;align-items:center;justify-content:center;font-size:1.5rem}.contact-inner{display:flex;justify-content:center}.contact-box{width:100%;max-width:600px;height:auto;padding:3rem;text-align:center}.contact-box:before{animation:none;opacity:.1}.contact-form{display:flex;flex-direction:column;gap:1.5rem;position:relative;z-index:2}.form-input{width:100%;padding:1rem 1.5rem;background:#0003;border:1px solid var(--glass-border);border-radius:8px;color:var(--text-main);font-family:var(--font-body);font-size:1rem;transition:var(--transition)}.form-input:focus{outline:none;border-color:var(--primary-accent);background:#0006}.form-btn{width:100%;padding:1rem;font-size:1.1rem}.contact-section{padding:100px 0;background:#0a0a0a;position:relative;overflow:hidden}.contact-section:before{content:"";position:absolute;top:-200px;right:-200px;width:600px;height:600px;background:radial-gradient(circle,rgba(139,92,246,.12) 0%,transparent 70%);pointer-events:none}.contact-section:after{content:"";position:absolute;bottom:-200px;left:-200px;width:500px;height:500px;background:radial-gradient(circle,rgba(59,130,246,.08) 0%,transparent 70%);pointer-events:none}.contact-wrapper{max-width:1100px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.contact-info h2{font-family:Plus Jakarta Sans,sans-serif;font-size:clamp(2rem,4vw,3rem);font-weight:800;color:#fff;line-height:1.15;margin-bottom:20px}.contact-info h2 span{background:linear-gradient(135deg,#a78bfa,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.contact-info p{font-family:DM Sans,sans-serif;color:#94a3b8;font-size:1.05rem;line-height:1.7;margin-bottom:40px}.contact-badge{display:inline-flex;align-items:center;gap:10px;background:#a78bfa1a;border:1px solid rgba(167,139,250,.25);color:#a78bfa;padding:10px 18px;border-radius:50px;font-family:Plus Jakarta Sans,sans-serif;font-size:.9rem;font-weight:500;margin-bottom:28px}.contact-badge:before{content:"âœ¦";font-size:.75rem}.contact-features{display:flex;flex-direction:column;gap:16px}.contact-feature{display:flex;align-items:center;gap:12px;color:#cbd5e1;font-family:DM Sans,sans-serif;font-size:.95rem}.contact-feature-icon{width:36px;height:36px;background:#a78bfa1f;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}.form-card{background:#ffffff08;border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:48px 40px;-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);position:relative;z-index:1}.form-card h3{font-family:Plus Jakarta Sans,sans-serif;font-size:1.4rem;font-weight:700;color:#fff;margin-bottom:8px}.form-card>p{font-family:DM Sans,sans-serif;color:#64748b;font-size:.9rem;margin-bottom:32px}.form-group{margin-bottom:20px}.form-group label{display:block;font-family:DM Sans,sans-serif;font-size:.85rem;font-weight:500;color:#94a3b8;margin-bottom:8px;letter-spacing:.02em}.form-group input,.form-group select,.form-group textarea{width:100%;background:#ffffff0a;border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:14px 18px;color:#fff;font-family:DM Sans,sans-serif;font-size:.95rem;outline:none;transition:border-color .2s,background .2s,box-shadow .2s;box-sizing:border-box;-webkit-appearance:none;-moz-appearance:none;appearance:none}.form-group select{cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2394a3b8' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:44px}.form-group select option{background:#1e1e2e;color:#fff}.form-group textarea{resize:vertical;min-height:100px}.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:#a78bfa80;background:#a78bfa0d;box-shadow:0 0 0 3px #a78bfa14}.form-group input::placeholder,.form-group textarea::placeholder{color:#334155}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}.submit-btn{width:100%;padding:16px;background:linear-gradient(135deg,#7c3aed,#3b82f6);border:none;border-radius:12px;color:#fff;font-family:Plus Jakarta Sans,sans-serif;font-size:1rem;font-weight:600;cursor:pointer;transition:opacity .2s,transform .15s,box-shadow .2s;margin-top:8px;letter-spacing:.02em}.submit-btn:hover{opacity:.9;transform:translateY(-1px);box-shadow:0 8px 25px #7c3aed59}.submit-btn:active{transform:translateY(0)}.submit-btn:disabled{opacity:.5;cursor:not-allowed;transform:none}.form-success{display:none;text-align:center;padding:40px 20px}.form-success.show{display:block}.success-icon{width:72px;height:72px;background:linear-gradient(135deg,#7c3aed33,#3b82f633);border:2px solid rgba(167,139,250,.4);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2rem;margin:0 auto 24px;animation:scaleIn .4s ease}@keyframes scaleIn{0%{transform:scale(0);opacity:0}to{transform:scale(1);opacity:1}}.form-success h4{font-family:Plus Jakarta Sans,sans-serif;font-size:1.4rem;font-weight:700;color:#fff;margin-bottom:10px}.form-success p{font-family:DM Sans,sans-serif;color:#64748b;font-size:.95rem}@media(max-width:768px){.contact-wrapper{grid-template-columns:1fr;gap:48px}.form-card{padding:32px 24px}.form-row{grid-template-columns:1fr}.hamburger{display:block}.nav-links{display:none;flex-direction:column;position:absolute;top:80px;left:0;width:100%;background:var(--bg-surface);padding:2rem;border-bottom:1px solid var(--glass-border);gap:1.5rem;text-align:center}.nav-links.active{display:flex}.navbar .cta-button{display:none}.hero-section{padding:120px 0 60px}.hero-title{font-size:2.2rem}.hero-subtitle{font-size:1rem}.section{padding:60px 0}.section-title{font-size:1.8rem}.stats-grid{grid-template-columns:1fr}.contact-wrapper{gap:40px}.form-card{padding:24px 20px}.glass-card{width:100%;height:300px}.outline-card{min-height:auto}.course-card{padding:1.5rem}.footer-inner{grid-template-columns:1fr;gap:2rem}.hero-actions{flex-direction:column;width:100%}.hero-actions button,.hero-actions a{width:100%;text-align:center}}.hamburger{display:none;background:none;border:none;color:var(--text-main);font-size:1.5rem;cursor:pointer;padding:.5rem;margin-left:auto}
 
     ]]></b:skin>
   </head>
@@ -28,7 +28,8 @@
 
     <header class="navbar">
         <div class="container navbar-inner">
-            <a href="#" class="brand-logo">Digiart<span>Academy</span></a>
+            <a href="#" class="brand-logo">DigiArt<span>Academy</span></a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
             <nav class="nav-links">
                 <a href="#about" class="nav-link">Haqqımızda</a>
                 <a href="#courses" class="nav-link">Kurslar</a>
@@ -73,195 +74,7 @@
 
     <script type="module">
 //<![CDATA[
-(function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))e(s);new MutationObserver(s=>{for(const a of s)if(a.type==="childList")for(const t of a.addedNodes)t.tagName==="LINK"&&t.rel==="modulepreload"&&e(t)}).observe(document,{childList:!0,subtree:!0});function n(s){const a={};return s.integrity&&(a.integrity=s.integrity),s.referrerPolicy&&(a.referrerPolicy=s.referrerPolicy),s.crossOrigin==="use-credentials"?a.credentials="include":s.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function e(s){if(s.ep)return;s.ep=!0;const a=n(s);fetch(s.href,a)}})();document.querySelector("#app").innerHTML=`
-  <section class="hero-section" id="hero">
-    <div class="container hero-inner">
-      <div class="hero-content">
-        <div class="badge">Yeni Kurslara Qeydiyyat Başladı</div>
-        <h1 class="hero-title">Rəqəmsal İncəsənət Dünyasına xoş gəlmişsiniz. <span class="gradient-text">DigiArt Academy.</span></h1>
-        <p class="hero-subtitle">UX/UI, Qrafik Dizayn, Frontend, Backend və daha çox sahədə peşəkar təhsil alın. Gələcəyin mütəxəssisi siz olun.</p>
-        <div class="hero-actions">
-          <button class="primary-btn hero-btn" onclick="document.getElementById('courses').scrollIntoView({behavior: 'smooth'})">Kursları Kəşf Et</button>
-          <a href="#about" class="secondary-btn">Daha Ətraflı</a>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <div class="glass-card">
-          <!-- Abstract representation of art/design -->
-          <div class="art-element el-1"></div>
-          <div class="art-element el-2"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="courses">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Elit Kurslarımız</h2>
-        <p class="section-subtitle">Sizi sənayedə rəqabətədavamlı mütəxəssisə çevirəcək intensiv, təcrübə yönümlü proqramlar.</p>
-      </div>
-      <div class="courses-grid">
-        ${l()}
-      </div>
-    </div>
-  </section>
-  </section>
-
-  <section class="section about-section" id="about">
-    <div class="container about-inner">
-      <div class="about-visual">
-        <div class="glass-card outline-card">
-          <div class="stats-grid">
-            <div class="stat-item">
-              <span class="stat-num">5k+</span>
-              <span class="stat-label">Tələbə</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-num">10+</span>
-              <span class="stat-label">Proqram</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-num">95%</span>
-              <span class="stat-label">İşə düzəlmə</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-num">20+</span>
-              <span class="stat-label">Ekspert</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="about-content">
-        <h2 class="section-title">Niyə məhz DigiArt Academy?</h2>
-        <p class="section-subtitle about-text">DigiArt Academy 2026-cı ildə qurulmuşdur. Yeni fəaliyyətə başlasa da, rəqəmsal incəsənət və İT sahəsində tələbələrin yüksək keyfiyyətli tədrisini hədəfləyir.</p>
-        <ul class="features-list">
-          <li>✨ Tamamilə praktik yönümlü tədris proqramı</li>
-          <li>🎯 Real sənaye layihələri üzərində iş</li>
-          <li>🤝 1-ə-1 mentor dəstəyi və karyera mərkəzi</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="section testimonials-section" id="portfolio">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Nəticələr Öz Sözünü Deyir</h2>
-        <p class="section-subtitle">Məzunlarımızın işləri və onların hekayələri.</p>
-      </div>
-      <div class="testimonials-grid">
-        <!-- Will be populated by JS if dynamic, or hardcoded for now -->
-        <div class="course-card testimonial-card">
-          <p class="course-desc">"DigiArt Academy sayəsində sıfırdan UI/UX dizayn öyrəndim və hazırda aparıcı bir İT şirkətində işləyirəm."</p>
-          <div class="author-info">
-            <div class="author-avatar">🎨</div>
-            <div>
-              <h4 class="course-title" style="font-size:1rem; margin-bottom:0.2rem">Aylin Məmmədova</h4>
-              <p class="course-desc" style="margin-bottom:0">UI/UX Dizayner</p>
-            </div>
-          </div>
-        </div>
-        <div class="course-card testimonial-card">
-          <p class="course-desc">"Praktik tapşırıqlar və real layihələr çox faydalı oldu. Mentorlar hər zaman dəstək oldular."</p>
-          <div class="author-info">
-            <div class="author-avatar">🖌️</div>
-            <div>
-              <h4 class="course-title" style="font-size:1rem; margin-bottom:0.2rem">Tural Qasımov</h4>
-              <p class="course-desc" style="margin-bottom:0">Qrafik Dizayner</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact-section" id="contact">
-    <div class="contact-wrapper">
-      <!-- Sol tərəf — məlumat -->
-      <div class="contact-info">
-        <div class="contact-badge">Pulsuz məsləhət</div>
-        <h2>Yaradıcılıq yolunda <span>bizimlə</span> başla</h2>
-        <p>Formu doldurun, 24 saat ərzində sizinlə əlaqə saxlayacağıq. Kurs haqqında bütün suallarınızı cavablandıracağıq.</p>
-        <div class="contact-features">
-          <div class="contact-feature">
-            <div class="contact-feature-icon">🎓</div>
-            <span>Peşəkar müəllimlər tərəfindən tədris</span>
-          </div>
-          <div class="contact-feature">
-            <div class="contact-feature-icon">📜</div>
-            <span>Kurs sonunda sertifikat</span>
-          </div>
-          <div class="contact-feature">
-            <div class="contact-feature-icon">💼</div>
-            <span>İş tapmaqda kömək</span>
-          </div>
-          <div class="contact-feature">
-            <div class="contact-feature-icon">🔄</div>
-            <span>Ömürlük materiallar</span>
-          </div>
-        </div>
-      </div>
-      <!-- Sağ tərəf — form -->
-      <div class="form-card">
-        <h3>Müraciət Et</h3>
-        <p>Aşağıdakı formu doldurun</p>
-        <!-- Uğur mesajı (form göndərildikdən sonra görünür) -->
-        <div class="form-success" id="formSuccess">
-          <div class="success-icon">✓</div>
-          <h4>Müraciətiniz qəbul edildi!</h4>
-          <p>Tezliklə sizinlə əlaqə saxlayacağıq.</p>
-        </div>
-        <!-- Müraciət formu -->
-        <form id="contactForm" action="https://formspree.io/f/xpqjkvrl" method="POST">
-          <div class="form-row">
-            <div class="form-group">
-              <label>Ad *</label>
-              <input type="text" name="ad" placeholder="Adınız" required="required" />
-            </div>
-            <div class="form-group">
-              <label>Soyad</label>
-              <input type="text" name="soyad" placeholder="Soyadınız" />
-            </div>
-          </div>
-          <div class="form-group">
-            <label>Telefon *</label>
-            <input type="tel" name="telefon" placeholder="+994 XX XXX XX XX" required="required" />
-          </div>
-          <div class="form-group">
-            <label>Email</label>
-            <input type="email" name="email" placeholder="email@example.com" />
-          </div>
-          <div class="form-group">
-            <label>Kurs seçin *</label>
-            <select name="kurs" required="required">
-              <option value="" disabled="disabled" selected="selected">Kurs seçin...</option>
-              <option value="qrafik-dizayn">Qrafik Dizayn</option>
-              <option value="ui-ux">UX/UI</option>
-              <option value="frontend">Frontend</option>
-              <option value="backend">Backend</option>
-              <option value="smm">SMM</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label>Qeyd (istəyə bağlı)</label>
-            <textarea name="qeyd" placeholder="Sualınız və ya qeydiniz..."></textarea>
-          </div>
-          <button type="submit" class="submit-btn" id="submitBtn">
-            Müraciət Göndər →
-          </button>
-        </form>
-      </div>
-    </div>
-  </section>
-`;function l(){return[{title:"UX/UI Dizayn",desc:"İstifadəçi təcrübəsi və istifadəçi interfeysi dizaynının sirlərini öyrənin. Figma-da real layihələr. Müasir dizayn trendləri.",icon:"📐"},{title:"Qrafik Dizayn",desc:"Adobe Photoshop və Illustrator ilə vizual kommunikasiya sənətini mənimsəyin. Brendinq, sosial media postları və daha çoxu.",icon:"🎨"},{title:"Frontend Proqramlaşdırma",desc:"HTML, CSS, JavaScript və müasir freymvörklərlə (React və ya Vue) göz oxşayan və interaktiv veb saytlar yaradın.",icon:"💻"},{title:"Backend Proqramlaşdırma",desc:"Server, məlumatlar bazası strukturu (Node.js, Python və ya PHP) öyrənərək güclü və təhlükəsiz veb sistemləri hazırlayın.",icon:"⚙️"},{title:"SMM (Sosial Media Marketinq)",desc:"Brendin rəqəmsal mövcudluğunu artırın. Reklam strategiyaları, məzmun planlaması və hədəf kütlə analizini öyrənin.",icon:"📱"}].map(i=>`
-    <div class="course-card">
-      <div class="course-icon">${i.icon}</div>
-      <h3 class="course-title">${i.title}</h3>
-      <p class="course-desc">${i.desc}</p>
-      <a href="#contact" class="course-link">Proqrama bax <span>&rarr;</span></a>
-    </div>
-  `).join("")}
+(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))d(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const a of t.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&d(a)}).observe(document,{childList:!0,subtree:!0});function l(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function d(e){if(e.ep)return;e.ep=!0;const t=l(e);fetch(e.href,t)}})();const s=document.getElementById("contactForm"),u=document.getElementById("formSuccess"),n=document.getElementById("submitBtn");s&&s.addEventListener("submit",async function(o){o.preventDefault(),n.disabled=!0,n.textContent="Göndərilir...";const r=new FormData(s);try{(await fetch(s.action,{method:"POST",body:r,headers:{Accept:"application/json"}})).ok?(s.style.display="none",u.classList.add("show")):(alert("Xəta baş verdi. Zəhmət olmasa yenidən cəhd edin."),n.disabled=!1,n.textContent="Müraciət Göndər →")}catch{alert("Bağlantı xətası. İnternet bağlantınızı yoxlayın."),n.disabled=!1,n.textContent="Müraciət Göndər →"}});const c=document.getElementById("hamburger"),i=document.querySelector(".nav-links"),f=document.querySelectorAll(".nav-link");c&&i&&(c.addEventListener("click",()=>{i.classList.toggle("active"),c.textContent=i.classList.contains("active")?"✕":"☰"}),f.forEach(o=>{o.addEventListener("click",()=>{i.classList.remove("active"),c.textContent="☰"})}));
 
 //]]>
     </script>
