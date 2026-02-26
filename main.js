@@ -1,4 +1,4 @@
-import './style.css'
+
 
 // Form göndərilmə loqikası
 const form = document.getElementById('contactForm');
