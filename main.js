@@ -35,3 +35,22 @@ if (form) {
         }
     });
 }
+// Hamburger menu loqikası
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.querySelector('.nav-links');
+const links = document.querySelectorAll('.nav-link');
+
+if (hamburger && navLinks) {
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        hamburger.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+    });
+
+    // Linkə kliklədikdə menyunu bağla
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+            hamburger.textContent = '☰';
+        });
+    });
+}

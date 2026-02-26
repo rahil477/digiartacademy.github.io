@@ -13,6 +13,7 @@ html_content = """
     <header class="navbar">
         <div class="container navbar-inner">
             <a href="#" class="brand-logo">DigiArt<span>Academy</span></a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
             <nav class="nav-links">
                 <a href="#about" class="nav-link">Haqqımızda</a>
                 <a href="#courses" class="nav-link">Kurslar</a>
