@@ -1,7 +1,7 @@
 import os
 
-css_path = r"d:\R\Code\Digiart Academy\dist\assets\index-a-Od53JC.css"
-js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-Ckhguq9p.js"
+css_path = r"d:\R\Code\Digiart Academy\dist\assets\index-Cbumdxa0.css"
+js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-jFhC2Y5-.js"
 
 with open(css_path, "r", encoding="utf-8") as f:
     css_content = f.read()
@@ -28,26 +28,29 @@ html_content = """
 
     <footer class="footer">
         <div class="container footer-inner">
-            <div class="footer-col">
+            <div class="footer-col reveal reveal-up delay-1">
                 <h3>DigiArt Academy</h3>
                 <p>Yaradıcılıq yolunda ilk addımını bizimlə at. Müasir rəqəmsal incəsənət kursları.</p>
             </div>
-            <div class="footer-col">
+            <div class="footer-col reveal reveal-up delay-2">
                 <h4>Keçidlər</h4>
                 <a href="#about">Haqqımızda</a>
                 <a href="#courses">Kurslar</a>
                 <a href="#contact">Əlaqə</a>
             </div>
-            <div class="footer-col">
+            <div class="footer-col reveal reveal-up delay-3">
                 <h4>Əlaqə</h4>
                 <p>Email: <a href="mailto:digiartacademy26@gmail.com">digiartacademy26@gmail.com</a></p>
                 <p>Tel: +994 55 429 09 10</p>
                 <p>Tel: +994 50 428 57 27</p>
             </div>
-            <div class="footer-col">
+            <div class="footer-col reveal reveal-up delay-4">
                 <h4>Sosial Şəbəkələr</h4>
-                <a href="https://www.instagram.com/digiartacademy/?hl=en" target="_blank">Instagram</a>
-                <a href="https://www.tiktok.com/@digi.artacademy" target="_blank">TikTok</a>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/digiartacademy/?hl=en" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@digi.artacademy" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="mailto:digiartacademy26@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
             </div>
         </div>
         <div class="footer-bottom text-center">
@@ -66,6 +69,7 @@ blogger_template = f"""<?xml version="1.0" encoding="UTF-8" ?>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=DM+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
     <b:skin><![CDATA[
 {css_content}
