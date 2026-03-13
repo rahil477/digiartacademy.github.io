@@ -1,7 +1,7 @@
 import os
 
-css_path = r"d:\R\Code\Digiart Academy\dist\assets\index-CqMwEynd.css"
-js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-DMq7vg-w.js"
+css_path = r"d:\R\Code\Digiart Academy\dist\assets\index-_vw4pGsI.css"
+js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-DSkXdGEZ.js"
 
 with open(css_path, "r", encoding="utf-8") as f:
     css_content = f.read()
@@ -25,6 +25,15 @@ html_content = """
     </header>
 
     <main id="app"></main>
+
+    <div class="floating-contact">
+        <a href="https://wa.me/994554290910" target="_blank" class="contact-btn whatsapp" title="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="https://t.me/digiartacademy" target="_blank" class="contact-btn telegram" title="Telegram">
+            <i class="fa-brands fa-telegram"></i>
+        </a>
+    </div>
 
     <footer class="footer">
         <div class="container footer-inner">
