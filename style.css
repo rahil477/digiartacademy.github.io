@@ -5,7 +5,7 @@
     --primary-accent: #6f00ff;
     --primary-accent-hover: #8f33ff;
     --text-main: #f8f9fa;
-    --text-muted: #a1a1aa;
+    --text-muted: #cbd5e1;
 
     /* Typography */
     --font-heading: 'Plus Jakarta Sans', sans-serif;
@@ -15,8 +15,8 @@
     --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --glass-bg: rgba(20, 20, 23, 0.7);
     --glass-border: rgba(255, 255, 255, 0.08);
-    --reveal-duration: 0.8s;
-    --reveal-delay: 0.2s;
+    --reveal-duration: 0.6s;
+    --reveal-delay: 0.1s;
 }
 
 /* --- Reveal Animations --- */
@@ -33,19 +33,19 @@
 }
 
 .reveal-up {
-    transform: translateY(50px);
+    transform: translateY(20px);
 }
 
 .reveal-down {
-    transform: translateY(-50px);
+    transform: translateY(-20px);
 }
 
 .reveal-left {
-    transform: translateX(-50px);
+    transform: translateX(-20px);
 }
 
 .reveal-right {
-    transform: translateX(50px);
+    transform: translateX(20px);
 }
 
 .delay-1 {
@@ -441,6 +441,7 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+    align-items: start; /* Akordeon açıldıqda digər kartların uzanmasını önləyir */
 }
 
 .course-card {
@@ -451,6 +452,7 @@ a {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    height: auto;
 }
 
 .course-card:hover {
@@ -1111,6 +1113,8 @@ a {
 .contact-btn {
     width: 60px;
     height: 60px;
+    min-width: 60px; /* Sabit ölçü */
+    min-height: 60px;
     border-radius: 50%;
     display: flex;
     align-items: center;
