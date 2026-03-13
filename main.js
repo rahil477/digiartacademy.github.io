@@ -75,19 +75,22 @@ if (hamburger && navLinks) {
     });
 }
 
-// Scroll Reveal Observer
-const revealElements = document.querySelectorAll('.reveal');
-const revealObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('reveal-visible');
-            // Element artıq göründüsə müşahidəni dayandır (istəyə bağlı)
-            // revealObserver.unobserve(entry.target);
+revealElements.forEach(el => revealObserver.observe(el));
+
+// Accordion Loqikası
+const accordionTriggers = document.querySelectorAll('.accordion-trigger');
+
+accordionTriggers.forEach(trigger => {
+    trigger.addEventListener('click', () => {
+        const card = trigger.closest('.course-card');
+        const isActive = card.classList.contains('active');
+
+        // Bütün digər kartları bağla (opsional)
+        document.querySelectorAll('.course-card').forEach(c => c.classList.remove('active'));
+
+        // Əgər özü aktiv deyildisə, aktiv et
+        if (!isActive) {
+            card.classList.add('active');
         }
     });
-}, {
-    threshold: 0.15,
-    rootMargin: '0px 0px -50px 0px'
 });
-
-revealElements.forEach(el => revealObserver.observe(el));

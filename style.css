@@ -482,16 +482,72 @@ a {
     margin-bottom: 1.5rem;
 }
 
-.course-link {
+.course-link, .accordion-trigger {
     color: #b785ff;
     font-weight: 600;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    transition: var(--transition);
 }
 
-.course-link:hover {
+.course-link:hover, .accordion-trigger:hover {
     color: var(--primary-accent-hover);
+}
+
+.accordion-trigger span {
+    transition: transform 0.3s ease;
+}
+
+.course-card.active .accordion-trigger span {
+    transform: rotate(180deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.course-card.active .accordion-content {
+    max-height: 1000px;
+    transition: max-height 1s ease-in-out;
+    margin-top: 1.5rem;
+}
+
+.module-list {
+    list-style: none;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.module-list li {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    position: relative;
+    padding-left: 1.25rem;
+}
+
+.module-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--primary-accent);
+}
+
+.module-list li strong {
+    color: var(--text-main);
 }
 
 @media (max-width: 900px) {
