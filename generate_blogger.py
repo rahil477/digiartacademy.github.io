@@ -1,7 +1,7 @@
 import os
 
-css_path = r"d:\R\Code\Digiart Academy\dist\assets\index-aLqeEoGK.css"
-js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-ByAsXTiF.js"
+css_path = r"d:\R\Code\Digiart Academy\dist\assets\index-BdAkShox.css"
+js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-do0mWyAV.js"
 
 with open(css_path, "r", encoding="utf-8") as f:
     css_content = f.read()
@@ -111,14 +111,98 @@ html_content = """
                 </div>
             </div>
         </section>
+
+        <section class="section contact-page-section" id="contact">
+            <div class="container">
+                <div class="section-header reveal reveal-up">
+                    <h2 class="section-title">Bizimlə Əlaqə</h2>
+                    <p class="section-subtitle">Sualınız var? Bizimlə birbaşa əlaqə saxlayın və ya müraciət formu vasitəsilə mesajınızı göndərin.</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Əlaqə Kartları -->
+                    <div class="contact-cards-container reveal reveal-left">
+                        <div class="contact-method-card">
+                            <div class="method-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div class="method-info">
+                                <h4>WhatsApp 1</h4>
+                                <a href="https://wa.me/994554290910" target="_blank">+994 55 429 09 10</a>
+                            </div>
+                        </div>
+                        <div class="contact-method-card">
+                            <div class="method-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div class="method-info">
+                                <h4>WhatsApp 2</h4>
+                                <a href="https://wa.me/994504285727" target="_blank">+994 50 428 57 27</a>
+                            </div>
+                        </div>
+                        <div class="contact-method-card">
+                            <div class="method-icon"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="method-info">
+                                <h4>Instagram</h4>
+                                <a href="https://www.instagram.com/digiartacademy/" target="_blank">@digiartacademy</a>
+                            </div>
+                        </div>
+                        <div class="contact-method-card">
+                            <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="method-info">
+                                <h4>Email</h4>
+                                <a href="mailto:digiartacademy26@gmail.com">digiartacademy26@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Müraciət Formu -->
+                    <div class="form-card-container reveal reveal-right delay-2">
+                        <div class="form-card">
+                            <h3>Müraciət Et</h3>
+                            <p>Məlumatlarınızı daxil edin, sizinlə əlaqə saxlayaq.</p>
+                            
+                            <div class="form-success" id="formSuccess">
+                                <div class="success-icon">✓</div>
+                                <h4>Müraciətiniz qəbul edildi!</h4>
+                                <p>Tezliklə sizinlə əlaqə saxlayacağıq.</p>
+                                <button type="button" class="secondary-btn reset-btn" id="resetFormBtn">Yeni Müraciət</button>
+                            </div>
+
+                            <form id="contactForm" action="https://formspree.io/f/xpqjkvrl" method="POST">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label>Ad *</label>
+                                        <input type="text" name="ad" placeholder="Adınız" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Soyad</label>
+                                        <input type="text" name="soyad" placeholder="Soyadınız" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Telefon *</label>
+                                    <input type="tel" name="telefon" placeholder="+994 XX XXX XX XX" required />
+                                </div>
+                                <div class="form-group">
+                                    <label>Kurs *</label>
+                                    <select name="kurs" required>
+                                        <option value="" disabled selected>Kurs seçin...</option>
+                                        <option value="qrafik-dizayn">Qrafik Dizayn</option>
+                                        <option value="ui-ux">UX/UI</option>
+                                        <option value="frontend">Frontend</option>
+                                        <option value="backend">Backend</option>
+                                        <option value="smm">SMM</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="submit-btn" id="submitBtn">Göndər →</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <div class="floating-contact">
         <a href="https://wa.me/994554290910" target="_blank" class="contact-btn whatsapp" title="WhatsApp">
             <i class="fa-brands fa-whatsapp"></i>
-        </a>
-        <a href="https://t.me/digiartacademy" target="_blank" class="contact-btn telegram" title="Telegram">
-            <i class="fa-brands fa-telegram"></i>
         </a>
     </div>
 
@@ -144,7 +228,6 @@ html_content = """
                 <h4>Sosial Şəbəkələr</h4>
                 <div class="social-links">
                     <a href="https://www.instagram.com/digiartacademy/?hl=en" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.tiktok.com/@digi.artacademy" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
                     <a href="mailto:digiartacademy26@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
                 </div>
             </div>
