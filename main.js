@@ -23,6 +23,14 @@ if (form) {
             if (res.ok) {
                 form.style.display = 'none';
                 successMsg.classList.add('show');
+                
+                // Konfeti effekti
+                confetti({
+                    particleCount: 150,
+                    spread: 70,
+                    origin: { y: 0.6 },
+                    colors: ['#6f00ff', '#3b82f6', '#a78bfa']
+                });
             } else {
                 alert('Xəta baş verdi. Zəhmət olmasa yenidən cəhd edin.');
                 submitBtn.disabled = false;
@@ -33,6 +41,18 @@ if (form) {
             submitBtn.disabled = false;
             submitBtn.textContent = 'Müraciət Göndər →';
         }
+    });
+}
+
+// Formu sıfırlamaq loqikası
+const resetBtn = document.getElementById('resetFormBtn');
+if (resetBtn && form && successMsg) {
+    resetBtn.addEventListener('click', () => {
+        form.reset();
+        form.style.display = 'block';
+        successMsg.classList.remove('show');
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Müraciət Göndər →';
     });
 }
 // Hamburger menu loqikası

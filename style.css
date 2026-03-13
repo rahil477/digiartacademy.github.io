@@ -1,4 +1,4 @@
-﻿:root {
+:root {
     /* Colors */
     --bg-dark: #0a0a0c;
     --bg-surface: #141417;
@@ -967,8 +967,20 @@ a {
 
 .form-success p {
     font-family: 'DM Sans', sans-serif;
-    color: #64748b;
+    color: #94a3b8;
     font-size: 0.95rem;
+    margin-bottom: 24px;
+}
+
+.reset-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    border-color: rgba(167, 139, 250, 0.3);
+}
+
+.reset-btn:hover {
+    background: rgba(167, 139, 250, 0.1);
+    border-color: #a78bfa;
 }
 
 /* â”€â”€ Responsive â”€â”€ */

@@ -1,7 +1,7 @@
 import os
 
-css_path = r"d:\R\Code\Digiart Academy\dist\assets\index-Cbumdxa0.css"
-js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-jFhC2Y5-.js"
+css_path = r"d:\R\Code\Digiart Academy\dist\assets\index-CqMwEynd.css"
+js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-DMq7vg-w.js"
 
 with open(css_path, "r", encoding="utf-8") as f:
     css_content = f.read()
@@ -88,6 +88,7 @@ blogger_template = f"""<?xml version="1.0" encoding="UTF-8" ?>
     <!-- Custom Content -->
 {html_content}
 
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
     <script type="module">
 //<![CDATA[
 {js_content}
