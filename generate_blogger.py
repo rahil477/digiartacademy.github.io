@@ -1,7 +1,7 @@
 import os
 
 css_path = r"d:\R\Code\Digiart Academy\dist\assets\index-DbQnLblp.css"
-js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-De2dSkIk.js"
+js_path = r"d:\R\Code\Digiart Academy\dist\assets\index-CblZ7CKx.js"
 
 with open(css_path, "r", encoding="utf-8") as f:
     css_content = f.read()
